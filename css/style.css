@@ -25,5 +25,90 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #e0e8ff;
+}
+.title {
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 15px;
+  color: #717fa6;
+  text-align: center;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.text-pay {
+  font-size: 14px;
+  margin: 0;
+}
+
+.black {
+  font-weight: 900;
+  margin: 0;
+}
+
+.click {
+  text-decoration: underline;
+  color: #382ae1;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.text-payment2 {
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.cancel {
+  color: #717fa6;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.container {
+  margin-top: 71px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 327px;
+  height: 567px;
+}
+
+.dance {
+  border-radius: 20px 20px 0 0;
+  width: 327px;
+  height: 160px;
+}
+
+.music {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+}
+.annual {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment {
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  background-color: #382ae1;
+  border-radius: 11px;
+  box-shadow: 0px 10px 10px 5px #717fa6;
 }
